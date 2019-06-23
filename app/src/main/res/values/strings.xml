@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="empresa_detalhes">Sobre a empresa</string>
+    <string name="Lorem_Ipsun">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus leo eros, iaculis at odio quis, accumsan commodo nunc. Praesent lobortis tristique enim, a maximus tortor varius eu. Donec dictum, enim id facilisis eleifend, elit eros aliquet orci, quis varius ligula orci et tortor. Curabitur at mattis neque. Nam volutpat, urna at tempus rutrum, quam mi semper leo, eu tempor est enim non dolor. Pellentesque sollicitudin sed erat ut luctus. Praesent sodales placerat metus, eget pharetra nisl feugiat nec.  Curabitur pellentesque sem id sodales tristique. Aenean sodales nibh enim, at tempor arcu feugiat non. Ut varius, ante at tempor accumsan, elit metus auctor augue, in hendrerit nisi nisl a arcu. Etiam ornare quis erat eget pharetra. Donec in turpis est. Maecenas egestas urna quis libero volutpat mattis. Maecenas commodo ligula ut dolor ornare, et dapibus tellus ornare. Phasellus sed ornare magna. Nunc blandit, leo sed tempor finibus, nibh libero maximus risus, at rhoncus odio ex et ante. Vestibulum vel tincidunt nisi. Maecenas non turpis ac mauris vestibulum lacinia. Nunc ultricies, neque non ullamcorper feugiat, lectus ipsum consequat diam, a facilisis nibh magna ut neque. Phasellus vulputate ex sit amet nunc porttitor sollicitudin.  Ut ornare, metus sit amet cursus ullamcorper, neque felis cursus nulla, quis tristique velit quam at magna. Vivamus vel nunc odio. Nulla interdum, massa in laoreet efficitur, enim mi molestie nunc, a eleifend orci elit ut diam. Aliquam auctor sed diam in rhoncus. Sed aliquam volutpat tincidunt. Phasellus rhoncus dui enim, fringilla blandit augue mattis vel. Curabitur sit amet aliquam mi. Sed placerat ut est id malesuada. Mauris aliquet, ante et cursus iaculis, dui ipsum facilisis metus, vestibulum venenatis velit nisl id felis. Proin dictum ornare egestas. Aenean eu condimentum tortor, in luctus nulla.</string>
+    <string name="consultoria">Consultoria</string>
+    <string name="processos">Processos</string>
+    <string name="acompanhamento_projeto">Acompanhamento e projetos</string>
+    <string name="nossos_clientes">Nossos Clientes</string>
+    <string name="sys">Empresa de desenvolvimento de sistemas</string>
+    <string name="auditoria">Empresa de auditoria</string>
+    <string name="contato">Contato</string>
+    <string name="Email">E-mail:</string>
+    <string name="celular">Celular:</string>
+</resources>

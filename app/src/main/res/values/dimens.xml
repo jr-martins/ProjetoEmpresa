@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_padrao">10dp</dimen>
+    <dimen name="tamanho_scrow">200dp</dimen>
+    <dimen name="caixa_texto">10dp</dimen>
+</resources>
