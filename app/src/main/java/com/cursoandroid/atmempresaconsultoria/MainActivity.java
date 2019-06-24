@@ -45,7 +45,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(MainActivity.this,EmpresaActivity.class));
+                Intent in = new Intent(MainActivity.this, EmpresaActivity.class);
+                ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, botaoEmpresa, ViewCompat.getTransitionName(botaoEmpresa));
+
+
+
+                startActivity(in,activityOptionsCompat.toBundle());
             }
         });
 
@@ -53,7 +58,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(MainActivity.this, ServicoActivity.class));
+                Intent in = new Intent(MainActivity.this, ServicoActivity.class);
+                ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, botaoServico, ViewCompat.getTransitionName(botaoServico));
+
+
+
+                startActivity(in,activityOptionsCompat.toBundle());
             }
         });
 
