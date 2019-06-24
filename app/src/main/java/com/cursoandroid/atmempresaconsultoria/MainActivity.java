@@ -21,21 +21,19 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        castAtributos();
+
+        navigationActivity();
+
+    }
+
+    private void castAtributos()
+    {
+
         botaoEmpresa = findViewById(R.id.empresaId);
         botaoServico = findViewById(R.id.servicoId);
         botaoCliente = findViewById(R.id.clienteId);
         botaoContato = findViewById(R.id.contatoId);
-
-        navigationActivity();
-
-
-
-
-
-
-
-
-
 
     }
 
@@ -86,7 +84,6 @@ public class MainActivity extends Activity {
 
 
 
-//                startActivity(new Intent(MainActivity.this,ContatoActivity.class));
 
                 Intent in = new Intent(MainActivity.this, ContatoActivity.class);
                 ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, botaoContato, ViewCompat.getTransitionName(botaoContato));
@@ -98,13 +95,6 @@ public class MainActivity extends Activity {
 
             }
         });
-
-
-
-
-
-
-
 
     }
 }
